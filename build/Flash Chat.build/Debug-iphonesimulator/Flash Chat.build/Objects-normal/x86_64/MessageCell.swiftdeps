@@ -1,0 +1,686 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageCell"
+provides-nominal:
+- "10Flash_Chat11MessageCellC"
+provides-member:
+- ["10Flash_Chat11MessageCellC", ""]
+provides-dynamic-lookup:
+- "avatarImageView"
+- "awakeFromNib"
+- "messageBackground"
+- "messageBody"
+- "prepareForReuse"
+- "senderUsername"
+- "stackView"
+depends-top-level:
+- !private "/"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MessageCell"
+- !private "UIColor"
+- "UIImageView"
+- "UILabel"
+- "UIStackView"
+- "UITableViewCell"
+- "UIView"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addArrangedSubview"]
+- !private ["So15CALayerDelegateP", "arrangedSubviews"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isMyMes"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "messageBackground"]
+- !private ["So15CALayerDelegateP", "removeArrangedSubview"]
+- !private ["So15CALayerDelegateP", "setToMyMessage"]
+- !private ["So15CALayerDelegateP", "stackView"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addArrangedSubview"]
+- !private ["s7CVarArgP", "arrangedSubviews"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMyMes"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "messageBackground"]
+- !private ["s7CVarArgP", "removeArrangedSubview"]
+- !private ["s7CVarArgP", "setToMyMessage"]
+- !private ["s7CVarArgP", "stackView"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addArrangedSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "arrangedSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMyMes"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "messageBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "removeArrangedSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "setToMyMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "stackView"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addArrangedSubview"]
+- !private ["s17CustomReflectableP", "arrangedSubviews"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "layer"]
+- !private ["s17CustomReflectableP", "removeArrangedSubview"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addArrangedSubview"]
+- !private ["s23CustomStringConvertibleP", "arrangedSubviews"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMyMes"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "messageBackground"]
+- !private ["s23CustomStringConvertibleP", "removeArrangedSubview"]
+- !private ["s23CustomStringConvertibleP", "setToMyMessage"]
+- !private ["s23CustomStringConvertibleP", "stackView"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addArrangedSubview"]
+- !private ["Se", "arrangedSubviews"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "layer"]
+- !private ["Se", "removeArrangedSubview"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addArrangedSubview"]
+- !private ["SE", "arrangedSubviews"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "layer"]
+- !private ["SE", "removeArrangedSubview"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addArrangedSubview"]
+- !private ["SQ", "arrangedSubviews"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isMyMes"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "messageBackground"]
+- !private ["SQ", "removeArrangedSubview"]
+- !private ["SQ", "setToMyMessage"]
+- !private ["SQ", "stackView"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "addArrangedSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "arrangedSubviews"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s23ExpressibleByNilLiteralP", "layer"]
+- !private ["s23ExpressibleByNilLiteralP", "removeArrangedSubview"]
+- !private ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addArrangedSubview"]
+- !private ["SH", "arrangedSubviews"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isMyMes"]
+- !private ["SH", "layer"]
+- !private ["SH", "messageBackground"]
+- !private ["SH", "removeArrangedSubview"]
+- !private ["SH", "setToMyMessage"]
+- !private ["SH", "stackView"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["10Flash_Chat11MessageCellC", "Bool"]
+- !private ["10Flash_Chat11MessageCellC", "UIColor"]
+- ["10Flash_Chat11MessageCellC", "UIImageView"]
+- ["10Flash_Chat11MessageCellC", "UILabel"]
+- ["10Flash_Chat11MessageCellC", "UIStackView"]
+- ["10Flash_Chat11MessageCellC", "UIView"]
+- ["10Flash_Chat11MessageCellC", "avatarImageView"]
+- ["10Flash_Chat11MessageCellC", "awakeFromNib"]
+- ["10Flash_Chat11MessageCellC", "init"]
+- ["10Flash_Chat11MessageCellC", "isMyMes"]
+- ["10Flash_Chat11MessageCellC", "messageBackground"]
+- ["10Flash_Chat11MessageCellC", "messageBody"]
+- ["10Flash_Chat11MessageCellC", "prepareForReuse"]
+- ["10Flash_Chat11MessageCellC", "senderUsername"]
+- ["10Flash_Chat11MessageCellC", "setToMyMessage"]
+- ["10Flash_Chat11MessageCellC", "stackView"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addArrangedSubview"]
+- !private ["So8NSCodingP", "arrangedSubviews"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isMyMes"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "messageBackground"]
+- !private ["So8NSCodingP", "removeArrangedSubview"]
+- !private ["So8NSCodingP", "setToMyMessage"]
+- !private ["So8NSCodingP", "stackView"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIStackView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addArrangedSubview"]
+- !private ["So8NSObjectC", "arrangedSubviews"]
+- ["So8NSObjectC", "avatarImageView"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isMyMes"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "messageBackground"]
+- ["So8NSObjectC", "messageBody"]
+- ["So8NSObjectC", "prepareForReuse"]
+- !private ["So8NSObjectC", "removeArrangedSubview"]
+- ["So8NSObjectC", "senderUsername"]
+- ["So8NSObjectC", "setToMyMessage"]
+- ["So8NSObjectC", "stackView"]
+- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addArrangedSubview"]
+- !private ["So8NSObjectP", "arrangedSubviews"]
+- !private ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMyMes"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "messageBackground"]
+- !private ["So8NSObjectP", "removeArrangedSubview"]
+- !private ["So8NSObjectP", "setToMyMessage"]
+- !private ["So8NSObjectP", "stackView"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "addArrangedSubview"]
+- !private ["Sq", "arrangedSubviews"]
+- !private ["Sq", "backgroundColor"]
+- !private ["Sq", "layer"]
+- !private ["Sq", "removeArrangedSubview"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addArrangedSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "arrangedSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isMyMes"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "messageBackground"]
+- !private ["So29UIAccessibilityIdentificationP", "removeArrangedSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "setToMyMessage"]
+- !private ["So29UIAccessibilityIdentificationP", "stackView"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addArrangedSubview"]
+- !private ["So12UIAppearanceP", "arrangedSubviews"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isMyMes"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "messageBackground"]
+- !private ["So12UIAppearanceP", "removeArrangedSubview"]
+- !private ["So12UIAppearanceP", "setToMyMessage"]
+- !private ["So12UIAppearanceP", "stackView"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addArrangedSubview"]
+- !private ["So21UIAppearanceContainerP", "arrangedSubviews"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isMyMes"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "messageBackground"]
+- !private ["So21UIAppearanceContainerP", "removeArrangedSubview"]
+- !private ["So21UIAppearanceContainerP", "setToMyMessage"]
+- !private ["So21UIAppearanceContainerP", "stackView"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "init"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addArrangedSubview"]
+- !private ["So17UICoordinateSpaceP", "arrangedSubviews"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isMyMes"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "messageBackground"]
+- !private ["So17UICoordinateSpaceP", "removeArrangedSubview"]
+- !private ["So17UICoordinateSpaceP", "setToMyMessage"]
+- !private ["So17UICoordinateSpaceP", "stackView"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addArrangedSubview"]
+- !private ["So13UIDynamicItemP", "arrangedSubviews"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isMyMes"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "messageBackground"]
+- !private ["So13UIDynamicItemP", "removeArrangedSubview"]
+- !private ["So13UIDynamicItemP", "setToMyMessage"]
+- !private ["So13UIDynamicItemP", "stackView"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addArrangedSubview"]
+- !private ["So18UIFocusEnvironmentP", "arrangedSubviews"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isMyMes"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "messageBackground"]
+- !private ["So18UIFocusEnvironmentP", "removeArrangedSubview"]
+- !private ["So18UIFocusEnvironmentP", "setToMyMessage"]
+- !private ["So18UIFocusEnvironmentP", "stackView"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addArrangedSubview"]
+- !private ["So11UIFocusItemP", "arrangedSubviews"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isMyMes"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "messageBackground"]
+- !private ["So11UIFocusItemP", "removeArrangedSubview"]
+- !private ["So11UIFocusItemP", "setToMyMessage"]
+- !private ["So11UIFocusItemP", "stackView"]
+- !private ["So20UIFocusItemContainerP", "UIColor"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "addArrangedSubview"]
+- !private ["So20UIFocusItemContainerP", "arrangedSubviews"]
+- !private ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isMyMes"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "messageBackground"]
+- !private ["So20UIFocusItemContainerP", "removeArrangedSubview"]
+- !private ["So20UIFocusItemContainerP", "setToMyMessage"]
+- !private ["So20UIFocusItemContainerP", "stackView"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIColor"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "isMyMes"]
+- !private ["So27UIGestureRecognizerDelegateP", "messageBackground"]
+- !private ["So27UIGestureRecognizerDelegateP", "setToMyMessage"]
+- !private ["So27UIGestureRecognizerDelegateP", "stackView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addArrangedSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrangedSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isMyMes"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "messageBackground"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeArrangedSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "setToMyMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "stackView"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIStackView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addArrangedSubview"]
+- !private ["So11UIResponderC", "arrangedSubviews"]
+- ["So11UIResponderC", "avatarImageView"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isMyMes"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "messageBackground"]
+- ["So11UIResponderC", "messageBody"]
+- ["So11UIResponderC", "prepareForReuse"]
+- !private ["So11UIResponderC", "removeArrangedSubview"]
+- ["So11UIResponderC", "senderUsername"]
+- ["So11UIResponderC", "setToMyMessage"]
+- ["So11UIResponderC", "stackView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addArrangedSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "arrangedSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isMyMes"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "messageBackground"]
+- !private ["So30UIResponderStandardEditActionsP", "removeArrangedSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "setToMyMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "stackView"]
+- !private ["So11UIStackViewC", "addArrangedSubview"]
+- !private ["So11UIStackViewC", "arrangedSubviews"]
+- !private ["So11UIStackViewC", "removeArrangedSubview"]
+- ["So15UITableViewCellC", "Bool"]
+- !private ["So15UITableViewCellC", "UIColor"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "UIStackView"]
+- ["So15UITableViewCellC", "UIView"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "avatarImageView"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "init"]
+- !private ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "isMyMes"]
+- ["So15UITableViewCellC", "messageBackground"]
+- ["So15UITableViewCellC", "messageBody"]
+- ["So15UITableViewCellC", "prepareForReuse"]
+- ["So15UITableViewCellC", "senderUsername"]
+- ["So15UITableViewCellC", "setToMyMessage"]
+- ["So15UITableViewCellC", "stackView"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addArrangedSubview"]
+- !private ["So18UITraitEnvironmentP", "arrangedSubviews"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isMyMes"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "messageBackground"]
+- !private ["So18UITraitEnvironmentP", "removeArrangedSubview"]
+- !private ["So18UITraitEnvironmentP", "setToMyMessage"]
+- !private ["So18UITraitEnvironmentP", "stackView"]
+- !private ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addArrangedSubview"]
+- !private ["So23UIUserActivityRestoringP", "arrangedSubviews"]
+- !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isMyMes"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "messageBackground"]
+- !private ["So23UIUserActivityRestoringP", "removeArrangedSubview"]
+- !private ["So23UIUserActivityRestoringP", "setToMyMessage"]
+- !private ["So23UIUserActivityRestoringP", "stackView"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "UIStackView"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "addArrangedSubview"]
+- !private ["So6UIViewC", "arrangedSubviews"]
+- ["So6UIViewC", "avatarImageView"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So6UIViewC", "isMyMes"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "messageBackground"]
+- ["So6UIViewC", "messageBody"]
+- ["So6UIViewC", "prepareForReuse"]
+- !private ["So6UIViewC", "removeArrangedSubview"]
+- ["So6UIViewC", "senderUsername"]
+- ["So6UIViewC", "setToMyMessage"]
+- ["So6UIViewC", "stackView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addArrangedSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "arrangedSubviews"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isMyMes"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "messageBackground"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeArrangedSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setToMyMessage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stackView"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addArrangedSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrangedSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMyMes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "messageBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeArrangedSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setToMyMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stackView"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addArrangedSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "arrangedSubviews"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "layer"]
+- !private ["s21_ObjectiveCBridgeableP", "removeArrangedSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "10Flash_Chat11MessageCellC"
+- !private "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So11UIStackViewC"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2a8e71e32b835328de554b83049a5a4b"

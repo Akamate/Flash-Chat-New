@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat/MyMessageCell.swift"
+            timestampString = "570026392.259559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat/MyMessageCell.swift"
+            timestampString = "570026392.259668"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "MyMessageCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat/CustomMessageCell.swift"
+            timestampString = "569931774.499155"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CustomMessageCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.CustomMessageCell.messageBackground.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/CustomMessageCell.swift"
+                  timestampString = "569931178.0745341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.CustomMessageCell.messageBackground.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/CustomMessageCell.swift"
+                  timestampString = "569931178.078205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.CustomMessageCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Flash_Chat.CustomMessageCell"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/CustomMessageCell.swift"
+                  timestampString = "569931178.081857"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.CustomMessageCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flash_Chat.CustomMessageCell&gt;"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/CustomMessageCell.swift"
+                  timestampString = "569931178.085659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flash Chat/MessageCell.swift"
+            timestampString = "570426588.2159539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "MessageCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.MessageCell.isMyMes.getter : Swift.Bool"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/MessageCell.swift"
+                  timestampString = "570130601.003094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.MessageCell.isMyMes.setter : Swift.Bool"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/MessageCell.swift"
+                  timestampString = "570130601.0066659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.MessageCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Flash_Chat.MessageCell"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/MessageCell.swift"
+                  timestampString = "570130601.010015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "494">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flash_Chat.MessageCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Flash_Chat.MessageCell&gt;"
+                  moduleName = "Flash Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash%20Chat/MessageCell.swift"
+                  timestampString = "570130601.013373"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "459">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
