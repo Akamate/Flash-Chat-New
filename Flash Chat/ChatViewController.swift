@@ -12,90 +12,100 @@ import Firebase
 class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate {
     
     
-    var keyboardHeight : CGFloat = 30.0
+    var keyboardHeight : CGFloat = 0.0
     var messages : [Message] = [Message]()
     @IBOutlet var sendButton: UIButton!
     @IBOutlet var messageTextfield: UITextField!
     @IBOutlet var messageTableView: UITableView!
     @IBOutlet var BottomConstraint: NSLayoutConstraint!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setDelegate()
+        configureTableView()
+        retriveMessages()
         
-       
+    }
+    private func setDelegate(){
         messageTableView.delegate = self
         messageTableView.dataSource = self
         messageTextfield.delegate = self
-       
+    }
+    
+    private func configureTableView(){
         let tabGesture = UITapGestureRecognizer(target: self, action: #selector(tableViewTapped))
         messageTableView.addGestureRecognizer(tabGesture)
-
+        
         messageTableView.register(UINib(nibName: "MessageCell",bundle: nil ), forCellReuseIdentifier: "messageCell")
+        messageTableView.register(UINib(nibName: "OtherMessageCell",bundle: nil ), forCellReuseIdentifier: "otherMessageCell")
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)),
                                                name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        configureTableView()
-        retriveMessages()
-        self.messageTableView.allowsSelection = false
-        self.messageTableView.separatorStyle = .none
-        self.sendButton.isEnabled = false
+        messageTableView.estimatedRowHeight = 150.0
+        messageTableView.rowHeight = UITableViewAutomaticDimension
+        messageTableView.allowsSelection = false
+        messageTableView.separatorStyle = .none
+        sendButton.isEnabled = false
         
     }
-
-    override func viewWillAppear(_ animated: Bool) {
-        print(messages.count)
-        print(messageTableView.numberOfRows(inSection: 0))
-        //self.messageTableView.scrollToRow(at: IndexPath(row: messages.count-1, section: 0), at: .bottom, animated: false)
-    }
     
-    
-    
-    //TODO: Declare cellForRowAtIndexPath here:
+    //TableView Method
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if(messages[indexPath.row].sender == Auth.auth().currentUser?.email){
             let cell = tableView.dequeueReusableCell(withIdentifier: "messageCell", for: indexPath) as! MessageCell
-            cell.messageBody.text = messages[indexPath.row].messageBody
+            let message = messages[indexPath.row].messageBody
+            cell.messageBody.text = message
             cell.senderUsername.text = messages[indexPath.row].sender
-            cell.avatarImageView.image = UIImage.init(named: "egg")
-            cell.setToMyMessage(true)
+            let sender = messages[indexPath.row].sender
+            cell.profileImg.text = String(sender[sender.startIndex]).uppercased()
+            cell.setToMyMessage()
+            cell.messageBody.textAlignment = .right
+            cell.senderUsername.textAlignment = .right
+            print(cell.messageBody.widthAnchor)
+            print(cell.messageBody.heightAnchor)
             cell.layoutIfNeeded()
             return cell
         }
         else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "messageCell", for: indexPath) as! MessageCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "otherMessageCell", for: indexPath) as! OtherMessageCell
             cell.messageBody.text = messages[indexPath.row].messageBody
             cell.senderUsername.text = messages[indexPath.row].sender
-            cell.avatarImageView.image = UIImage.init(named: "egg")
-            cell.setToMyMessage(false)
+            let sender = messages[indexPath.row].sender
+            cell.profileImg.text = String(sender[sender.startIndex]).uppercased()
+            cell.setToMyOtherMessage()
+            cell.messageBody.textAlignment = .left
+            cell.senderUsername.textAlignment = .left
             cell.layoutIfNeeded()
             return  cell
         }
     }
     
     
-    //TODO: Declare numberOfRowsInSection here:
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
     
-    
-    
-    //TODO: Declare tableViewTapped here:
     @objc func tableViewTapped(){
         messageTextfield.endEditing(true)
     }
     
-    
-    //TODO: Declare configureTableView here:
-    func configureTableView(){
-        messageTableView.estimatedRowHeight = 150.0
-        messageTableView.rowHeight = UITableViewAutomaticDimension
-        print("sfsaff \(UITableViewAutomaticDimension)")
+
+    //Swipe Cell to Delete
+    @available(iOS 11.0, *)
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let delete = UIContextualAction(style: .destructive, title: "Delete") { (action, sourceView, completionHandler) in
+            Database.database().reference().child("Messages").child(self.messages[indexPath.row].key).removeValue()
+            print("index path of delete: \(indexPath)")
+            self.messages.remove(at: indexPath.row)
+            self.messageTableView.reloadData()
+            completionHandler(true)
+        }
+        let swipeActionConfig = UISwipeActionsConfiguration(actions: [delete])
+        swipeActionConfig.performsFirstActionWithFullSwipe = false
+        return swipeActionConfig
     }
     
-    
     ///////////////////////////////////////////
+    //Get Keyboard Height
     @objc func keyboardWillShow(notification: Notification) {
         let userInfo:NSDictionary = notification.userInfo! as NSDictionary
         let keyboardFrame:NSValue = userInfo.value(forKey: UIKeyboardFrameEndUserInfoKey) as! NSValue
@@ -105,26 +115,15 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             self.BottomConstraint.constant = self.keyboardHeight
             self.view.layoutIfNeeded()
         }
-        
-        // do whatever you want with this keyboard height
     }
     
-    //TODO: Declare textFieldDidEndEditing here:
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        UIView.animate(withDuration: 0.5) {
-            self.BottomConstraint.constant = 0
-            self.view.layoutIfNeeded()
-        }
-    }
-   
     ///////////////////////////////////////////
     
     
-    //MARK: - Send & Recieve from Firebase MaxKak
+    //MARK: - Send & Recieve from Firebase
     
     @IBAction func sendPressed(_ sender: AnyObject) {
         
-        //TODO: Send the message to Firebase and save it in our database
         messageTextfield.endEditing(true)
         sendButton.isEnabled = false
         messageTextfield.isEnabled = false
@@ -147,7 +146,7 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
     }
     
-    //TODO: Create the retrieveMessages method here:
+    // LoadMessage
     func retriveMessages(){
         let messageDB = Database.database().reference().child("Messages")
         messageDB.observe(.childAdded, with:{ (snapshot) in
@@ -157,20 +156,23 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             let mes = Message()
             mes.messageBody = message!
             mes.sender = sender!
+            mes.key = snapshot.key
             self.messages.append(mes)
             self.configureTableView()
             self.messageTableView.reloadData()
-            self.messageTableView.scrollToRow(at: IndexPath(row: self.messages.count-1, section: 0), at: .bottom, animated: false)
+            
+            if(self.messages.count > 0){
+                self.messageTableView.scrollToRow(at: IndexPath(row: self.messages.count-1, section: 0), at: .bottom, animated: false)
+            }
         })
     }
     
 
     
-    
+    //LOGOUT
     
     @IBAction func logOutPressed(_ sender: AnyObject) {
         
-        //TODO: Log out the user and send them back to WelcomeViewController
         do{
             try Auth.auth().signOut()
             self.navigationController?.popToRootViewController(animated: true)
@@ -180,11 +182,19 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         }
     }
     
-    @IBAction func textFieldDidChanged(_ sender: Any) {
+    //endEditing Message
+    
+}
+
+extension ChatViewController : UITextViewDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        UIView.animate(withDuration: 0.5) {
+            self.BottomConstraint.constant = 0
+            self.view.layoutIfNeeded()
+        }
+    }
+    @IBAction private func textFieldDidChanged(_ sender: Any) {
         self.sendButton.isEnabled = (messageTextfield.text == "") ? false : true
         
     }
-    
-
 }
-

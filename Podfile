@@ -11,6 +11,7 @@ pod 'Firebase'
 pod 'Firebase/Auth'
 pod 'Firebase/Database' 
 pod 'ChameleonFramework'
+pod 'SwipeCellKit'
 end
 
 post_install do |installer|

@@ -1,11 +1,12 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "13951a195288fe3c52fe5f5863160e10"
-build_time: [1548733780, 122819000]
+options: "a9322c642201d53890c9fce77f86e437"
+build_time: [1548866435, 404313000]
 inputs:
-  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/MessageCell.swift": [1548730722, 0]
-  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/WelcomeViewController.swift": [1542387740, 0]
-  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/Message.swift": [1542979545, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/OtherMessageCell.swift": [1548866316, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/MessageCell.swift": [1548866234, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/WelcomeViewController.swift": [1548831409, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/Message.swift": [1548853747, 0]
   "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/RegisterViewController.swift": [1548133672, 0]
   "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/LogInViewController.swift": [1543051899, 0]
   "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/AppDelegate.swift": [1543051482, 0]
-  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/ChatViewController.swift": [1548733779, 0]
+  "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Flash Chat/ChatViewController.swift": [1548866435, 0]

@@ -10,6 +10,8 @@
 		61BB0139219F305700DDDC49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61BB0138219F305700DDDC49 /* GoogleService-Info.plist */; };
 		61F5B2A021F878DD00FF37C6 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F5B29E21F878DD00FF37C6 /* MessageCell.swift */; };
 		61F5B2A121F878DD00FF37C6 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F5B29F21F878DD00FF37C6 /* MessageCell.xib */; };
+		61FE667522020407005705C7 /* OtherMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FE667322020407005705C7 /* OtherMessageCell.swift */; };
+		61FE667622020407005705C7 /* OtherMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61FE667422020407005705C7 /* OtherMessageCell.xib */; };
 		6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6321A9C21B94EBA10053D2E7 /* Images.xcassets */; };
 		63E28B251B9A335300FBF6E0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E28B241B9A335300FBF6E0 /* Message.swift */; };
 		63E28B291B9A336600FBF6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E28B281B9A336600FBF6E0 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		61BB0138219F305700DDDC49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		61F5B29E21F878DD00FF37C6 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		61F5B29F21F878DD00FF37C6 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		61FE667322020407005705C7 /* OtherMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherMessageCell.swift; sourceTree = "<group>"; };
+		61FE667422020407005705C7 /* OtherMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherMessageCell.xib; sourceTree = "<group>"; };
 		6321A9B61B94EBA10053D2E7 /* Flash Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6321A9BA1B94EBA10053D2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6321A9C21B94EBA10053D2E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				61F5B29E21F878DD00FF37C6 /* MessageCell.swift */,
 				61F5B29F21F878DD00FF37C6 /* MessageCell.xib */,
+				61FE667322020407005705C7 /* OtherMessageCell.swift */,
+				61FE667422020407005705C7 /* OtherMessageCell.xib */,
 			);
 			name = "Custom Cell";
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FE667622020407005705C7 /* OtherMessageCell.xib in Resources */,
 				63E28B291B9A336600FBF6E0 /* Main.storyboard in Resources */,
 				61F5B2A121F878DD00FF37C6 /* MessageCell.xib in Resources */,
 				6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */,
@@ -236,6 +243,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -247,6 +255,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -284,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FE667522020407005705C7 /* OtherMessageCell.swift in Sources */,
 				61F5B2A021F878DD00FF37C6 /* MessageCell.swift in Sources */,
 				63E28B331B9A337600FBF6E0 /* WelcomeViewController.swift in Sources */,
 				63E28B251B9A335300FBF6E0 /* Message.swift in Sources */,

@@ -45,6 +45,7 @@ depends-member:
 - ["s25LosslessStringConvertibleP", "init"]
 - ["10Flash_Chat7MessageC", "String"]
 - ["10Flash_Chat7MessageC", "init"]
+- ["10Flash_Chat7MessageC", "key"]
 - ["10Flash_Chat7MessageC", "messageBody"]
 - ["10Flash_Chat7MessageC", "sender"]
 - ["s10MirrorPathP", "init"]
@@ -195,4 +196,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "2dbdeb768494cc5ae306ac861ba364d9"
+interface-hash: "032fd11e63ec1b644d2897f8da66a65f"

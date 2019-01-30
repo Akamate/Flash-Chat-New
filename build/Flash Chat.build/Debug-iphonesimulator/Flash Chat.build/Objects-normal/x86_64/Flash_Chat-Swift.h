@@ -202,6 +202,7 @@ SWIFT_CLASS("_TtC10Flash_Chat11AppDelegate")
 @class UITableView;
 @class NSLayoutConstraint;
 @class UITableViewCell;
+@class UISwipeActionsConfiguration;
 @class NSBundle;
 @class NSCoder;
 
@@ -212,18 +213,20 @@ SWIFT_CLASS("_TtC10Flash_Chat18ChatViewController")
 @property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified messageTableView;
 @property (nonatomic, strong) IBOutlet NSLayoutConstraint * _Null_unspecified BottomConstraint;
 - (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (void)tableViewTapped;
-/// ////////////////////////////////////////
+- (UISwipeActionsConfiguration * _Nullable)tableView:(UITableView * _Nonnull)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=11.0);
 - (void)keyboardWillShowWithNotification:(NSNotification * _Nonnull)notification;
-- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (IBAction)sendPressed:(id _Nonnull)sender;
 - (IBAction)logOutPressed:(id _Nonnull)sender;
-- (IBAction)textFieldDidChanged:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ChatViewController (SWIFT_EXTENSION(Flash_Chat)) <UITextViewDelegate>
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 @end
 
 
@@ -238,18 +241,33 @@ SWIFT_CLASS("_TtC10Flash_Chat19LogInViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 @class UIView;
 @class UILabel;
+@class UITextView;
 @class UIStackView;
 
 SWIFT_CLASS("_TtC10Flash_Chat11MessageCell")
 @interface MessageCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified avatarImageView;
 @property (nonatomic, strong) IBOutlet UIView * _Null_unspecified messageBackground;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified messageBody;
+@property (nonatomic, strong) IBOutlet UITextView * _Null_unspecified messageTextView;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified senderUsername;
 @property (nonatomic, strong) IBOutlet UIStackView * _Null_unspecified stackView;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified profileImg;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified messageView;
+- (void)awakeFromNib;
+- (void)prepareForReuse;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10Flash_Chat16OtherMessageCell")
+@interface OtherMessageCell : UITableViewCell
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified senderUsername;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified messageBackground;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified messageBody;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified profileImg;
 - (void)awakeFromNib;
 - (void)prepareForReuse;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -271,7 +289,9 @@ SWIFT_CLASS("_TtC10Flash_Chat22RegisterViewController")
 
 SWIFT_CLASS("_TtC10Flash_Chat21WelcomeViewController")
 @interface WelcomeViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified appName;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

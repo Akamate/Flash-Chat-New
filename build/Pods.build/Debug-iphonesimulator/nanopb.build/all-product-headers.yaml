@@ -702,6 +702,33 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwipeCellKit-Swift.h",
+          'external-contents': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwipeCellKit-umbrella.h",
+          'external-contents': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/akamatechayapiwat/Desktop/SwiftProject/Flash-Chat-iOS11/build/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers",
       'contents': [
         {
